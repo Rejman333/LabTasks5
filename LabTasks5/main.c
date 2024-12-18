@@ -3,13 +3,6 @@
 #include <string.h> //For strcpy()
 #include "my_header.h"
 
-/*
-Zadanie 1 wykonać tworząc strukturę student, która zawiera nazwisko,
-imię, rok urodzenia oraz ocenę studenta. Stworzyć tablicę studentów, alokując pamięć dynamicznie
-dla podanej z monitora liczby studentów. Funkcje my_inp, my_outpt powinni obsługiwać każdy
-element tej tablicy.
-*/
-
 typedef struct {
 	char name[128];
 	char surname[128];
