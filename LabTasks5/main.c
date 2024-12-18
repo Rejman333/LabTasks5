@@ -162,6 +162,8 @@ int main() {
 		input_student_data(&students[i]);
 	}
 	all_print(students, number_of_students);
+	free(students);
+	students = NULL;
 }
 
 #undef SAFE_MODE
